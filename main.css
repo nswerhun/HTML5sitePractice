@@ -99,6 +99,26 @@ header a:hover{
     line-height: 1.08em;
 }
 
+#showcaseONE{
+    min-height: 400px;
+    background: url(img/bettterCode.jpg) no-repeat 0 -200px;
+    text-align: center;
+    color: #FFF;
+    border-bottom: #E8491D 2px solid;
+}
+
+#showcaseONE h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    line-height: 1em
+}
+
+#showcaseONE p{
+    font-size: 20px;
+    line-height: 1.08em;
+}
+
 /* Newsletter*/
 #newsletter{
     padding: 15px;
