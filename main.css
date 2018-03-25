@@ -142,8 +142,33 @@ header a:hover{
 }
 
 #boxes .box img{
-   width: 100px;
+   width: 124px;
    height: auto; 
+}
+
+.aboutBoxes{
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.aboutBoxes img{
+    float: left;
+}
+
+.aboutBoxes h3{
+    text-align: center;
+    display: block;
+    padding-right: 50px;
+    font-size: 20px;
+
+}
+
+.aboutBoxes p{
+    display: block;
+    align-self: auto;
+    margin-left: 225px;
+    font-size: 18px;
+    line-height: 1.09em;
 }
 
 
