@@ -22,6 +22,7 @@ ul{
 
 .highlight{
     color: #E8491D;
+    font-weight: bold;
 }
 
 
@@ -59,4 +60,47 @@ header #branding h1{
 header nav{
     float: right;
     margin-top: 10px;
+}
+
+header a:hover{
+    color: #CCC;
+    font-weight: bold;
+}
+
+/* Showcase */
+#showcase{
+    min-height: 400px;
+    background: url(img/showcase.jpg) no-repeat 0 -200px;
+    text-align: center;
+    color: #FFF;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    line-height: 1em
+}
+
+#showcase p{
+    font-size: 20px;
+    line-height: 1.08em;
+}
+
+/* Newsletter*/
+#newsletter{
+    padding: 15px;
+    color: #FFF;
+    background: #35424A;
+    border-bottom: #E8491D 2px solid;
+}
+
+#newsletter h1{
+    float: left;
+}
+
+#newsletter form{
+    padding: 15px;
+    display: inline;
+    float: right;
 }
