@@ -115,7 +115,6 @@ header a:hover{
 
 #newsletter form{
     padding: 15px;
-    display: inline;
     float: right;
 }
 
@@ -128,4 +127,30 @@ header a:hover{
 #newsletter input[placeholder]{
     font-size: 16px;
     padding-left: 20px;
+}
+
+/* Boxes */
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+#boxes .box img{
+   width: 100px;
+   height: auto; 
+}
+
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #E8491D;
+    color: #FFF;
+    text-align: center;
 }
